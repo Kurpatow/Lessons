@@ -22,16 +22,16 @@ public class SecondLesson {
 
 
         // тернарный оператор ?
-        int start = 3, end = 100;
-        int res = start > end ? -1 : 0;
+        int start = 3, end2 = 100;
+        int res = start > end2 ? -1 : 0;
 
         // Дана переменная sum - сумма покупки.
         // Если сумма покупки больше 100000,
         // то вывести в консоль сумму к оплате с учетом скидки в 10%,
         // в противном случае вывести в консоль сумму к оплате без скидки.
 
-        int sum = 14000;
-        double result = sum > 100_000 ? sum * 0.9 : sum;
+        int sum1 = 14000;
+        double result = sum1 > 100_000 ? sum * 0.9 : sum;
         System.out.println(result);
 
 
@@ -136,33 +136,33 @@ public class SecondLesson {
 
         age = 2;
 
-        int count =  switch (age){
-            case 0, 1 -> 200;
-            case 2, 3 -> 150;
-            case 4, 5 -> 100;
-            default -> 0;
+        //int count =  switch (age){
+            //case 0, 1 -> 200;
+            //case 2, 3 -> 150;
+            //case 4, 5 -> 100;
+            //default -> 0;
         };
-        System.out.println(count);
+        //System.out.println(count);
 
-        count =  switch (age){
-            case 0, 1 -> {
-                System.out.println("Результат на 0 - 1 год: " + 200);
-                yield 200;
+        //count =  switch (age){
+           // case 0, 1 -> {
+             //   System.out.println("Результат на 0 - 1 год: " + 200);
+              //  yield 200;
             }
-            case 2, 3 -> {
-                System.out.println("Результат на 2 - 3 года: " + 150);
-                yield 150;
-            }
-            case 4, 5 -> {
-                System.out.println("Результат на 4 - 5 лет: " + 100);
-                yield 100;
-            }
-            default -> {
-                System.out.println("Результат для собаки старше 5 лет: " + 0);
-                yield 100;
-            }
-        };
-        System.out.println(count);
+           // case 2, 3 -> {
+             //   System.out.println("Результат на 2 - 3 года: " + 150);
+             //   yield 150;
+           // }
+          //  case 4, 5 -> {
+            //    System.out.println("Результат на 4 - 5 лет: " + 100);
+              //  yield 100;
+         //   }
+           // default -> {
+             //   System.out.println("Результат для собаки старше 5 лет: " + 0);
+               // yield 100;
+           // }
+       // };
+       // System.out.println(count);
 
-    }
-}
+   // }
+//}
