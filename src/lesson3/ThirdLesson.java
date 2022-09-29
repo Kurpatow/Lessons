@@ -1,4 +1,4 @@
-package ThirdLesson;
+package lesson3;
 
 public class ThirdLesson {
     //import java.util.Scanner;

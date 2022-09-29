@@ -1,4 +1,4 @@
-package FirstLesson;
+package lesson1;
 
 // комментарий
 /*
