@@ -1,4 +1,4 @@
-package lesson3;
+package ru.itmo.lessons.lesson3;
 
 public class ThirdLesson {
     //import java.util.Scanner;

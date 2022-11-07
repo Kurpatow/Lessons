@@ -1,4 +1,4 @@
-package lesson1;
+package ru.itmo.lessons.lesson1;
 
 // комментарий
 /*

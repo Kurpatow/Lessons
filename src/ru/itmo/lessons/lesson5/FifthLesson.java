@@ -1,4 +1,4 @@
-package lesson5;
+package ru.itmo.lessons.lesson5;
 
 import java.util.Arrays;
 import java.util.Scanner;
