@@ -6,6 +6,7 @@ package ru.itmo.lessons.paterns.composite;
 import java.util.ArrayList;
 
 // должна быть возможность отрисовки
+// Composite
 public class Gallery implements Drawable{
     private String title;
     private ArrayList<Drawable> elements;
@@ -14,8 +15,12 @@ public class Gallery implements Drawable{
         elements = new ArrayList<>(20);
     }
 
-    public void removeFromGallery(Drawable drawable) {
+    public void addToGallery(Drawable drawable){
         elements.add(drawable);
+    }
+
+    public void removeFromGallery(Drawable drawable){
+        elements.remove(drawable);
     }
 
     public Gallery(String title) {
@@ -24,5 +29,6 @@ public class Gallery implements Drawable{
 
     @Override
     public void draw() {
+        elements.forEach(element-> element.draw());
     }
 }
