@@ -1,5 +1,4 @@
 package ru.itmo.lessons.lesson20;
-
 import java.util.Arrays;
 
 public class Figure {
